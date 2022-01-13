@@ -1,0 +1,23 @@
+
+--> some common commands use to create a django project
+  
+step 1. create a virtual enviroment 
+      commands to create a virtual enviroment 
+      1. virtualenv name_of_enviroment
+      2. pip install django 
+
+step 2. get started  with the project 
+     django-admin startproject project_name    ----> imp command
+     
+     python manage.py runserver  ---> this is use to run the server
+
+
+
+--- Roll of urls.py -----
+   ever app has its own urls.py fill and each of the should we contacted with the main urls.py fill 
+   urls.py match the function with the certain urls
+
+HOW DATABASE WORK 
+     we can get data from form as a post and get request for making a table in databse we need to make 
+     model(something like class)  and the we need to resister that model in admin.py file 
+     also make sure that you also add the name of the app in the list of installed app in setting.py file
